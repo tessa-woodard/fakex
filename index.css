@@ -1,0 +1,117 @@
+.header {
+    width: 100vw;
+    height: 20vh;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+
+}
+
+.fixed-image {
+    height:40px;
+    position: fixed;
+    opacity: 0.5;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    color: black;
+    font-family: "D-Din-Bold", Arial, Verdana, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+    color: white;
+}
+
+.nav-list > li {
+    margin-left: 20px;
+}
+
+.outline-box1 {
+    margin: 100px;
+    outline: 3px solid transparent;
+    outline-offset: 15px;
+    position: absolute;
+    bottom: 200px;
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    font-family: "D-Din-Bold", Arial, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    white-space: nowrap; 
+
+}
+
+.outline-box2 {
+    margin: 100px;
+    outline: 3px solid transparent;
+    outline-offset: 15px;
+    position: absolute;
+    bottom: 150px;
+    width: 400px;
+    height: 70px;
+    text-align: left;
+    font-family: "D-Din-Bold", Arial, Verdana, sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.outline-box3 {
+    margin: 100px;
+    outline: 3px solid white;
+    outline-offset: 15px;
+    position: absolute; 
+    bottom: 50px;
+    width: 120px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    font-family: "D-Din-Bold", Arial, Verdana, sans-serif;
+}
+
+.flex-image1 {
+    background-image: url('https://www.spacex.com/static/images/backgrounds/splashdown_1.webp');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+
+.flex-image2 {
+    background-image: url('https://www.spacex.com/static/images/backgrounds/starlink9streak_desktop.webp');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+
+.flex-image3 {
+    background-image: url('https://www.spacex.com/static/images/backgrounds/starshipliftoff_desktop1.webp');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+
+.flex-image4 {
+    background-image: url('https://www.spacex.com/static/images/backgrounds/home_demo2.webp');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+
+.flex-image5 {
+    background-image: url('https://www.spacex.com/static/images/backgrounds/home_moon.webp');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
